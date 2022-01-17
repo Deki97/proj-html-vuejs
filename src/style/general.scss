@@ -9,6 +9,8 @@
 @import '~@fontsource/roboto/700.css';
 @import '~@fontsource/roboto/900.css';
 
+@import '../style/variables.scss';
+
 
 body { 
     font-family: "Roboto"; 
@@ -26,4 +28,14 @@ a {
 
 a:hover {
     color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mini-title {
+    color: $page-primary-color;
 }
