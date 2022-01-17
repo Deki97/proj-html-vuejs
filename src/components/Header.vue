@@ -1,7 +1,8 @@
 <template>
     <header>
-        <div class="my-container">
-            <div class="header-wrapper">
+        <!-- Header Top Wrapper -->
+        <div class="header-top-wrapper">
+            <div class="my-container">
                 <!-- Header Top -->
                 <div class="header-top">
                     <!-- Header Top Left -->
@@ -69,6 +70,18 @@
                 <!-- End Header Top -->
             </div>
         </div>
+        <!-- End Header Top Wrapper -->
+
+
+        <!-- Header Bottom Wrapper -->
+        <div class="header-bottom-wrapper">
+            <div class="my-container">
+                <div class="header-bottom">
+                    Ciao
+                </div>
+            </div>
+        </div>
+        <!-- End Header Bottom Wrapper -->
     </header>
 </template>
 
@@ -82,42 +95,44 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    background-color: #21333e;
-    color: #c0c3d0;
-    font-weight: 300;
+    .header-top-wrapper {
+        background-color: #21333e;
 
-    .my-container {
-        .header-wrapper {
-            .header-top {
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            padding: 10px 0;
+            color: #c0c3d0;
+            font-weight: 300;
+
+            .timetables .icon {
+                margin-right: 5px;
+            }
+
+            .contacts {
                 display: flex;
-                justify-content: space-between;
-                font-size: 12px;
-                padding: 10px 0;
 
-                .timetables .icon {
-                    margin-right: 5px;
+                .telephone {
+                    margin-right: 20px;
                 }
 
-                .contacts {
-                    display: flex;
-
-                    & > div {
-                        margin-right: 20px;
-                    }
-
-                    .telephone .icon,
-                    .mail .icon {
-                        margin-right: 5px;
-                    }
-                    
-                    .social {
-                        & > span {
-                            margin-right: 25px;
-                        }
+                .telephone .icon,
+                .mail .icon {
+                    margin-right: 5px;
+                }
+                
+                .social {
+                    & > span {
+                        margin-left: 25px;
                     }
                 }
             }
         }
+    }
+
+    .header-bottom-wrapper {
+        
     }
 }
 </style>
