@@ -23,6 +23,8 @@ button {
 
     &:hover {
         background-color: $page-primary-color;
+        border: 1px solid $page-primary-color;
+
     }
 }
 

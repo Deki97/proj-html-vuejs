@@ -21,6 +21,10 @@ body {
     margin: auto;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -47,10 +51,20 @@ ul {
     color: $page-primary-color;
 }
 
-.bk-green {
+.contrast-green {
     background-color: #daeced;
+    color: $page-primary-color;
 }
 
-.grey {
-    color: darken($page-secondary-color, 50%);
+
+.heading-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 300;
+    color: darken($page-secondary-color, 20%);
 }

@@ -3,7 +3,7 @@
         <div class="my-container">
             <div class="services-card-wrapper">
                 <div class="single-service-card">
-                    <div class="card-icon green bk-green">
+                    <div class="card-icon contrast-green">
                         <i class="fas fa-user-friends"></i>
                     </div>
 
@@ -11,13 +11,13 @@
                         <h3>Human Capital</h3>
                     </div>
 
-                    <div class="card-text grey">
+                    <div class="card-text paragraph">
                         <p>Humanizing business: Harness the power of technology to improve the way people work.</p>
                     </div>
                 </div>
 
                 <div class="single-service-card">
-                    <div class="card-icon green bk-green">
+                    <div class="card-icon contrast-green">
                         <i class="fas fa-chart-pie"></i>
                     </div>
 
@@ -25,13 +25,13 @@
                         <h3>Core Business</h3>
                     </div>
 
-                    <div class="card-text grey">
+                    <div class="card-text paragraph">
                         <p>It takes innovative approaches to transform, modernize, and run existing platforms.</p>
                     </div>
                 </div>
 
                 <div class="single-service-card">
-                    <div class="card-icon green bk-green">
+                    <div class="card-icon contrast-green">
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
 
@@ -39,7 +39,7 @@
                         <h3>Performance</h3>
                     </div>
 
-                    <div class="card-text grey">
+                    <div class="card-text paragraph">
                         <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
                     </div>
                 </div>
@@ -84,13 +84,6 @@ export default {
                     font-size: 20px;
                     margin-top: 20px;
                     margin-bottom: 15px;
-                }
-            }
-
-            .card-text {
-                p {
-                    font-size: 14px;
-                    font-weight: 300;
                 }
             }
         }

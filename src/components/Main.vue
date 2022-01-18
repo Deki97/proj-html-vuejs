@@ -1,17 +1,21 @@
 <template>
     <main>
         <Services />
+
+        <About />
     </main>
 </template>
 
 
 <script>
 import Services from './Services.vue';
+import About from './About.vue';
 
 export default {
     name: 'Main',
     components: {
-        Services
+        Services,
+        About
     }
 }
 </script>
