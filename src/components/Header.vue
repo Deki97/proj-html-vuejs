@@ -122,6 +122,25 @@
                             </ul>
                         </div>
                     </nav>
+
+                    <div class="banner-text col-6">
+                        <div class="mini-title">
+                            Human Resources
+                        </div>
+
+                        <div class="main-title">
+                            <h1>Get More Productivity</h1>
+                        </div>
+
+                        <div class="paragraph">
+                            <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
+                        </div>
+
+                        <div class="buttons">
+                            <PrimaryButton />
+                            <SecondaryButton />
+                        </div>
+                    </div>
                 </div>
                 <!-- End Header Bottom -->
             </div>
@@ -133,11 +152,13 @@
 
 <script>
 import PrimaryButton from './PrimaryButton.vue';
+import SecondaryButton from './SecondaryButton.vue';
 
 export default {
     name: 'Header',
     components: {
-        PrimaryButton
+        PrimaryButton,
+        SecondaryButton
     }
 }
 </script>
@@ -155,7 +176,7 @@ header {
             justify-content: space-between;
             font-size: 12px;
             padding: 10px 0;
-            color: #c0c3d0;
+            color: $page-secondary-color;
             font-weight: 300;
 
             .timetables .icon {
@@ -191,6 +212,8 @@ header {
         background-repeat: no-repeat;
 
         .header-bottom {
+            position: relative;
+
             nav {
                 display: flex;
                 justify-content: space-between;
@@ -223,6 +246,31 @@ header {
                             }
                         }
                     }
+                }
+            }
+
+            .banner-text {
+                position: absolute;
+                transform: translateY(50%);
+                
+                .main-title {
+                    h1 {
+                        color: white;
+                        font-weight: 900;
+                        font-size: 50px;
+                    }
+                }
+
+                .paragraph {
+                    p {
+                        color: $page-secondary-color;
+                        font-size: 20px;
+                        font-weight: 300;
+                    }
+                }
+
+                .buttons {
+                    margin-top: 40px;
                 }
             }
         }
