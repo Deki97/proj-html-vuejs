@@ -42,3 +42,15 @@ ul {
     font-size: 13px;
     font-weight: 500;
 }
+
+.green {
+    color: $page-primary-color;
+}
+
+.bk-green {
+    background-color: #daeced;
+}
+
+.grey {
+    color: darken($page-secondary-color, 50%);
+}
