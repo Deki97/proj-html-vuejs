@@ -206,7 +206,6 @@ header {
 
     .header-bottom-wrapper {
         background-image: url('../assets/img/bg-4.jpg');
-        // test
         height: 680px;
         background-size: cover;
         background-repeat: no-repeat;
