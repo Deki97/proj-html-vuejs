@@ -96,7 +96,7 @@ export default {
 .about {
     .about-text {
         margin-left: 320px;
-        padding-right: 30px;
+        padding-right: 40px;
 
         .heading-title {
             span {
