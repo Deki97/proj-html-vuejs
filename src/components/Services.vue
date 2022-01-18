@@ -3,7 +3,7 @@
         <div class="my-container">
             <div class="services-card-wrapper">
                 <div class="single-service-card">
-                    <div class="card-icon contrast-green">
+                    <div class="card-icon contrast-green-light">
                         <i class="fas fa-user-friends"></i>
                     </div>
 
@@ -17,7 +17,7 @@
                 </div>
 
                 <div class="single-service-card">
-                    <div class="card-icon contrast-green">
+                    <div class="card-icon contrast-green-light">
                         <i class="fas fa-chart-pie"></i>
                     </div>
 
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="single-service-card">
-                    <div class="card-icon contrast-green">
+                    <div class="card-icon contrast-green-light">
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
 

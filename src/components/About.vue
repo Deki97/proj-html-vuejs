@@ -8,7 +8,7 @@
                     </div>
 
                     <div class="heading-title">
-                        <span class="contrast-green">The</span>
+                        <span class="contrast-green-light">The</span>
                         Company
                     </div>
 
@@ -97,13 +97,6 @@ export default {
     .about-text {
         margin-left: 320px;
         padding-right: 40px;
-
-        .heading-title {
-            span {
-                padding: 0 10px;
-                border-radius: 5px;
-            }
-        }
 
         .number-stats {
             display: flex;

@@ -51,11 +51,23 @@ ul {
     color: $page-primary-color;
 }
 
-.contrast-green {
-    background-color: #daeced;
-    color: $page-primary-color;
+.grey {
+    color: darken($page-secondary-color, 20%);
 }
 
+.contrast-green-light {
+    background-color: #daeced;
+    color: $page-primary-color;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.contrast-green-dark {
+    background-color: #0e272d;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
 
 .heading-title {
     font-weight: 900;
