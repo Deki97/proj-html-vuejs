@@ -122,6 +122,8 @@
                             <PrimaryButton />
                             <SecondaryButton />
                         </div>
+
+                        <div class="green-strip"></div>
                     </div>
                 </div>
                 <!-- End Header Bottom -->
@@ -269,6 +271,18 @@ header {
 
                 .buttons {
                     margin-top: 40px;
+                }
+
+                .green-strip {
+                    position: absolute;
+                    background-color: $page-primary-color;
+                    opacity: 0.5;
+                    width: 280px;
+                    height: 25px;
+                    top: 110px;
+                    left: 0;
+                    z-index: -1;
+                    border-radius: 3px;
                 }
             }
         }
