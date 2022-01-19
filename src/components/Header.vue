@@ -90,30 +90,12 @@
 
                         <div class="nav-menu">
                             <ul>
-                                <li>
-                                    <a href="#">Home</a>
+                                <li v-for="(item, index) in stringMenu" :key="index">
+                                    <a href="#">{{ item.tab }}</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">About</a>
-                                </li>
-
-                                <li>
-                                    <a href="#">Projects</a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="highlighted">Process</a>
-                                </li>
-
-                                <li>
-                                    <a href="#">Testimonials</a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i class="far fa-user"></i>
-                                    </a>
+                                    <a href="#"><i class="far fa-user"></i></a>
                                 </li>
 
                                 <li>
@@ -159,6 +141,9 @@ export default {
     components: {
         PrimaryButton,
         SecondaryButton
+    },
+    props: {
+        stringMenu: String
     }
 }
 </script>

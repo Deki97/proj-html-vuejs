@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :stringMenu="header_menus" />
 
     <Main />
 
@@ -10,7 +10,6 @@
 
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
@@ -22,6 +21,27 @@ export default {
     Main,
     Footer
   },
+  data: function() {
+    return {
+      header_menus: [
+        {
+          tab: 'Home'
+        },
+        {
+          tab: 'About'
+        },
+        {
+          tab: 'Projects'
+        },
+        {
+          tab: 'Process'
+        },
+        {
+          tab: 'Testimonials'
+        }
+      ]
+    }
+  }
 };
 </script>
 
