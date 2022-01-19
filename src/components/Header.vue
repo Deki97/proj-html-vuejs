@@ -190,7 +190,7 @@ header {
     }
 
     .header-bottom-wrapper {
-        background-image: url('../assets/img/bg-4.jpg');
+        background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../assets/img/bg-4.jpg');
         height: 680px;
         background-size: cover;
         background-repeat: no-repeat;
