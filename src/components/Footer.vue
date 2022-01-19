@@ -13,14 +13,15 @@
 
                         <div class="col-4">
                             <div class="references">
-                                <!-- Lista di menu che verrà poi presa tramite props da App.vue -->
+                                <!-- Lista di menu / paragrafi che verrà poi presa tramite props da App.vue -->
                                 <div class="title">
                                     <h3>Example Inc.</h3>
                                 </div>
 
                                 <div class="paragraph">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p v-for="(item, index) in stringParagraph" :key="index">
+                                        {{ item.text }}
+                                    </p>
                                 </div>
 
                                 <div class="references-list">
@@ -91,6 +92,9 @@ export default {
     name: 'Footer',
     components: {
         FooterForm
+    },
+    props: {
+        stringParagraph: String
     }
 }
 </script>

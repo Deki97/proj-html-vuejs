@@ -4,7 +4,7 @@
 
     <Main />
 
-    <Footer />
+    <Footer :stringParagraph="footer_menus" />
   </div>
 </template>
 
@@ -42,13 +42,10 @@ export default {
       ],
       footer_menus: [
         {
-          reference: '+1 (305) 1234-5678'
+          text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
         },
         {
-          reference: 'hello@example.com'
-        },
-        {
-          reference: 'Main Avenue, 987'
+          text: 'Praesent diam lacus, dapibus sed imperdiet consectetur.'
         }
       ]
     }
