@@ -4,13 +4,16 @@
             <div class="my-container">
                 <div class="footer-top">
                     <div class="row">
+                        <!-- Footer Col Left (Form) -->
                         <div class="col-8">
                             <div class="form">
                                 <!-- Componente FooterForm -->
                                 <FooterForm />
                             </div>
                         </div>
+                        <!-- End Footer Col Left (Form) -->
 
+                        <!-- Footer Col Right -->
                         <div class="col-4">
                             <div class="references">
                                 <!-- Lista di menu / paragrafi che verrà poi presa tramite props da App.vue -->
@@ -63,6 +66,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- End Footer Col Right -->
                     </div>
                 </div>
             </div>

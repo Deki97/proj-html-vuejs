@@ -1,6 +1,8 @@
 <template>
+    <!-- Feedback Section -->
     <div class="feedback">
         <div class="my-container">
+            <!-- Feedback Wrapper -->
             <div class="feedback-wrapper">
                 <div class="mini-title">
                     Customer Testimonials
@@ -16,6 +18,7 @@
                     moves us and we are grateful for the recognition.</p>
                 </div>
 
+                <!-- Feedback Cards -->
                 <div class="feedback-cards">
                     <div class="single-feedback">
                         <div class="feedback-customer">
@@ -62,9 +65,12 @@
                         </div>
                     </div>
                 </div>
+                <!-- End Feedback Cards -->
             </div>
+            <!-- End Feedback Wrapper -->
         </div>
     </div>
+    <!-- End Feedback Section -->
 </template>
 
 

@@ -1,6 +1,8 @@
 <template>
+    <!-- Actions and Projects Section -->
     <div class="actions-and-projects">
         <div class="my-container">
+            <!-- Actions and Projects Wrapper -->
             <div class="actions-and-projects-wrapper">
                 <div class="mini-title">
                     We Do More For Everyone
@@ -45,10 +47,12 @@
                     </ul>
                 </div>
 
+                <!-- First Row -->
                 <div class="row row-cols-3">
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-1.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -59,6 +63,7 @@
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-2.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -69,6 +74,7 @@
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-3.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -76,11 +82,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- End First Row -->
 
+                <!-- Second Row -->
                 <div class="row row-cols-3">
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-4.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -91,6 +100,7 @@
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-5.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -101,6 +111,7 @@
                     <div class="col">
                         <div class="card-image">
                             <img src="../assets/img/project-6.jpg" alt="Card Image">
+                            <div class="overlay"></div>
                         </div>
 
                         <div class="card-description">
@@ -108,9 +119,12 @@
                         </div>
                     </div>
                 </div>
+                <!-- End Second Row -->
             </div>
+            <!-- End Actions and Projects Wrapper -->
         </div>
     </div>
+    <!-- End Actions and Projects Section -->
 </template>
 
 
@@ -163,9 +177,20 @@ export default {
                 position: relative;
                 cursor: pointer;
                 
-                .card-image img {
-                    border-radius: 10px;
-                    overflow: hidden;
+                .card-image {
+                    img {
+                        border-radius: 10px;
+                    }
+
+                    // .overlay {
+                    //     position: absolute;
+                    //     top: 0;
+                    //     left: 0;
+                    //     width: 100%;
+                    //     height: 100%;
+                    //     background: rgba(0, 0, 0, .5);
+                    //     overflow: hidden;
+                    // }
                 }
 
                 .card-description {

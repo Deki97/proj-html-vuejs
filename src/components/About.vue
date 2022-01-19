@@ -1,7 +1,10 @@
 <template>
+    <!-- About Section-->
     <div class="about">
         <div class="row row-cols-2 g-0">
+            <!-- Col About Text -->
             <div class="col d-flex align-items-center">
+                <!-- About Text -->
                 <div class="about-text">
                     <div class="mini-title">
                         About The Network
@@ -67,13 +70,18 @@
                         <SecondaryButton />                    
                     </div>
                 </div>
+                <!-- End About Text -->
             </div>
+            <!-- End Col About Text -->
 
+            <!-- Image Col Right -->
             <div class="col">
                 <div class="about-image"></div>
             </div>
+            <!-- End Image Col Right -->
         </div>
     </div>
+    <!-- End About Section -->
 </template>
 
 

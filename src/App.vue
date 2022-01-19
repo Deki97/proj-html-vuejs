@@ -1,9 +1,11 @@
 <template>
   <div id="app">
+    <!-- Passo tramite delle props l'array di stringhe menu al componente Header -->
     <Header :stringMenu="header_menus" />
 
     <Main />
 
+    <!-- Passo tramite delle props l'array di stringhe menu al componente footer -->
     <Footer :stringParagraph="footer_menus" />
   </div>
 </template>
@@ -23,6 +25,7 @@ export default {
   },
   data: function() {
     return {
+      // Array di oggetti dove ogni stringa rappresenta un menu dell'header
       header_menus: [
         {
           menu: 'Home'
@@ -40,6 +43,7 @@ export default {
           menu: 'Testimonials'
         },
       ],
+      // Array di oggetti dove ogni stringa rappresenta un paragrafo del footer
       footer_menus: [
         {
           text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
