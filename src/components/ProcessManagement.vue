@@ -1,4 +1,5 @@
 <template>
+    <!-- Process Management -->
     <div class="process-management">
         <div class="mini-title">
             How It Works In Practice
@@ -15,7 +16,8 @@
         </div>
 
         <hr class="line-points">
-
+        
+        <!-- Process -->
         <div class="process-container">
             <div class="single-step">
                 <div class="step-number contrast-green-light">
@@ -87,7 +89,9 @@
                 </div>
             </div>
         </div>
+        <!-- End Process -->
     </div>
+    <!-- End Process Management -->
 </template>
 
 

@@ -1,5 +1,6 @@
 <template>
     <footer>
+        <!-- Footer Top Wrapper -->
         <div class="footer-top-wrapper">
             <div class="my-container">
                 <div class="footer-top">
@@ -27,6 +28,7 @@
                                     </p>
                                 </div>
 
+                                <!-- Contacts -->
                                 <div class="references-list">
                                     <div class="single-reference">
                                         <div class="reference-icon">
@@ -58,6 +60,7 @@
                                         </span>
                                     </div>
                                 </div>
+                                <!-- End Contacts -->
 
                                 <div class="map-button">
                                     <button>
@@ -71,20 +74,27 @@
                 </div>
             </div>
         </div>
-
+        <!-- End Footer Top Wrapper -->
+        
+        <!-- Footer Bottom Wrapper -->
         <div class="footer-bottom-wrapper">
             <div class="my-container">
                 <div class="footer-bottom">
+                    <!-- Footer Bottom Left -->
                     <div class="enjoy">
                         Enjoy the low price. We are tracking any intention of piracy.
                     </div>
+                    <!-- End Footer Bottom Left -->
 
+                    <!-- Footer Bottom Right -->
                     <div class="copyright">
                         &copy; 2020 NEXGEN is Proudly Powered by <span class="codings">Codings</span>.
                     </div>
+                    <!-- End Footer  Bottom Right -->
                 </div>
             </div>
         </div>
+        <!-- End Footer Bottom Wrapper -->
     </footer>
 </template>
 

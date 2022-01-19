@@ -15,12 +15,16 @@
             <p>We will respond to your message as soon as possible.</p>
         </div>
 
+        <!-- Form -->
         <form>
+            <!-- Form first row (name and email) -->
             <div class="name-email d-flex justify-content-between">
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
             </div>
+            <!-- End Form first row (name and email) -->
 
+            <!-- Form second row (phone and info) -->
             <div class="phone-info d-flex justify-content-between">
                 <input type="text" placeholder="Phone">
                 
@@ -28,10 +32,13 @@
                     <option value="more-info">More Info</option>
                 </select>
             </div>
+            <!-- End Form second row (phone and info) -->
 
+            <!-- Form Textarea -->
             <div class="message">
                 <textarea name="message" cols="30" rows="5" placeholder="Message"></textarea>
             </div>
+            <!-- End Form Textarea -->
 
             <div class="send-button">
                 <button>
@@ -39,6 +46,7 @@
                 </button>
             </div>
         </form>
+        <!-- End Form -->
     </div>
 </template>
 
