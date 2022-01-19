@@ -91,7 +91,7 @@
                         <div class="nav-menu">
                             <ul>
                                 <li v-for="(item, index) in stringMenu" :key="index">
-                                    <a href="#">{{ item.tab }}</a>
+                                    <a href="#">{{ item.menu }}</a>
                                 </li>
 
                                 <li>

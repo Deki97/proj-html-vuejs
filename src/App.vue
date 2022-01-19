@@ -25,19 +25,30 @@ export default {
     return {
       header_menus: [
         {
-          tab: 'Home'
+          menu: 'Home'
         },
         {
-          tab: 'About'
+          menu: 'About'
         },
         {
-          tab: 'Projects'
+          menu: 'Projects'
         },
         {
-          tab: 'Process'
+          menu: 'Process'
         },
         {
-          tab: 'Testimonials'
+          menu: 'Testimonials'
+        },
+      ],
+      footer_menus: [
+        {
+          reference: '+1 (305) 1234-5678'
+        },
+        {
+          reference: 'hello@example.com'
+        },
+        {
+          reference: 'Main Avenue, 987'
         }
       ]
     }
