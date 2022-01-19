@@ -66,6 +66,20 @@
                 </div>
             </div>
         </div>
+
+        <div class="footer-bottom-wrapper">
+            <div class="my-container">
+                <div class="footer-bottom">
+                    <div class="enjoy">
+                        Enjoy the low price. We are tracking any intention of piracy.
+                    </div>
+
+                    <div class="copyright">
+                        &copy; 2020 NEXGEN is Proudly Powered by <span class="codings">Codings</span>.
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
@@ -85,56 +99,78 @@ export default {
 <style lang="scss" scoped>
 @import '../style/variables.scss';
 
-.footer-top-wrapper {
-    background-color: #111117;
-    padding: 100px 0;
+footer {
+    .footer-top-wrapper {
+        background-color: #111117;
+        padding: 100px 0;
 
-    .footer-top {
-        .references {
-            padding-left: 30px;
+        .footer-top {
+            .references {
+                padding-left: 30px;
+
+                .title {
+                    h3 {
+                        color: white;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+                .single-reference {
+                    display: flex;
+                    align-items: center;
+                    margin: 20px 0;
+
+                    .reference-icon {
+                        color: $page-primary-color;
+                        background-color: #0e272d;
+                        width: 35px;
+                        height: 35px;
+                        text-align: center;
+                        line-height: 35px;
+                        border-radius: 50%;
+                    }
+
+                    .reference-text {
+                        color: $page-primary-color;
+                        margin-left: 10px;
+                        font-size: 14px;
+                    }
+                }
+
+                .references-list {
+                    margin-top: 30px;
+                }
+
+                .map-button {
+                    button {
+                        background-color: transparent;
+                        color: white;
+                        border: 1px solid $page-primary-color;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        padding: 5px 20px;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom-wrapper {
+        background-color: black;
+        color: #9a9ba2;
+        border-bottom: 2px solid #9a9ba2;
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            font-size: 14px;
             
-            .title {
-                h3 {
-                    color: white;
-                    font-size: 20px;
-                    margin-bottom: 20px;
-                }
-            }
-            .single-reference {
-                display: flex;
-                align-items: center;
-                margin: 20px 0;
-
-                .reference-icon {
+            .copyright {
+                .codings {
                     color: $page-primary-color;
-                    background-color: #0e272d;
-                    width: 35px;
-                    height: 35px;
-                    text-align: center;
-                    line-height: 35px;
-                    border-radius: 50%;
-                }
-
-                .reference-text {
-                    color: $page-primary-color;
-                    margin-left: 10px;
-                    font-size: 14px;
-                }
-            }
-
-            .references-list {
-                margin-top: 30px;
-            }
-
-            .map-button {
-                button {
-                    background-color: transparent;
-                    color: white;
-                    border: 1px solid $page-primary-color;
-                    text-transform: uppercase;
-                    font-size: 14px;
-                    padding: 5px 20px;
-                    border-radius: 3px;
                 }
             }
         }
