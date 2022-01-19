@@ -4,6 +4,52 @@
         <div class="my-container">
             <!-- Actions and Projects Wrapper -->
             <div class="actions-and-projects-wrapper">
+                <div class="circles-grid">
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                </div>
                 <div class="mini-title">
                     We Do More For Everyone
                 </div>
@@ -142,8 +188,28 @@ export default {
     text-align: center;
     padding: 120px 0;
     background-color: #111117;
+    position: relative;
 
     .actions-and-projects-wrapper {
+        .circles-grid {
+            position: absolute;
+            top: -29px;
+            left: 50%;
+            width: 135px;
+            height: 58px;
+            margin-left: -67.5px;
+            color: $page-primary-color;
+            font-size: 7px;
+            z-index: 2;
+
+            .circles-row {
+                margin-top: 4px;
+                span {
+                    padding: 0 4px;
+                    opacity: 0.3;
+                }
+            }
+        }
         .heading-title {
             color: white;
         }

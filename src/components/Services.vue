@@ -44,6 +44,53 @@
                         <p>Achieving maximum impact and value from investments in finance and supply chain.</p>
                     </div>
                 </div>
+
+                <div class="circles-grid">
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="circles-row">
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                        <span><i class="fas fa-circle"></i></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -59,9 +106,12 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '../style/variables.scss';
+
 .services {
     background-color: #eef4ed;
     padding: 100px 0 120px 0;
+    position: relative;
 
     .services-card-wrapper {
         display: flex;
@@ -86,6 +136,26 @@ export default {
                     font-size: 20px;
                     margin-top: 20px;
                     margin-bottom: 15px;
+                }
+            }
+        }
+
+        .circles-grid {
+            position: absolute;
+            bottom: -29px;
+            left: 50%;
+            width: 135px;
+            height: 58px;
+            margin-left: -67.5px;
+            color: $page-primary-color;
+            font-size: 7px;
+            z-index: 2;
+
+            .circles-row {
+                margin-top: 4px;
+                span {
+                    padding: 0 4px;
+                    opacity: 0.3;
                 }
             }
         }
