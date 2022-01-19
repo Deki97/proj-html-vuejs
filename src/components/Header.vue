@@ -80,12 +80,12 @@
                 <div class="header-bottom">
                     <nav>
                         <div class="nav-logo">
-                            <span class="first-half">
+                            <div class="first-half">
                                 Nex
-                            </span>
-                            <span class="second-half">
+                            </div>
+                            <div class="second-half">
                                 Gen
-                            </span>
+                            </div>
                         </div>
 
                         <div class="nav-menu">
@@ -199,16 +199,30 @@ header {
             position: relative;
 
             nav {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
 
-                .nav-logo {
+            .nav-logo {
+                display: flex;
+                align-items: center;
                 letter-spacing: 2.5px;
                 color: white;
                 font-weight: 500;
                 text-transform: uppercase;
+
+                .first-half {
+                    color: #00a6a6;
+                    background-color: #14322f;
+                    padding: 5px 0 5px 20px;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                }
+
+                .second-half {
+                    padding-left: 2px;
+                }
             }
 
             .nav-menu {
