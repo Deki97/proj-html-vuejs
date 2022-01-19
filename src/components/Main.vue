@@ -7,6 +7,8 @@
         <ActionsProjects />
 
         <ProcessManagement />
+
+        <Feedback />
     </main>
 </template>
 
@@ -16,6 +18,7 @@ import Services from './Services.vue';
 import About from './About.vue';
 import ActionsProjects from './ActionsProjects.vue';
 import ProcessManagement from './ProcessManagement.vue';
+import Feedback from './Feedback.vue';
 
 export default {
     name: 'Main',
@@ -23,7 +26,8 @@ export default {
         Services,
         About,
         ActionsProjects,
-        ProcessManagement
+        ProcessManagement,
+        Feedback
     }
 }
 </script>
