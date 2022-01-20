@@ -47,48 +47,24 @@
 
                 <div class="circles-grid">
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                 </div>
             </div>

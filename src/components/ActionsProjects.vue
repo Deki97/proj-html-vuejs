@@ -6,50 +6,27 @@
             <div class="actions-and-projects-wrapper">
                 <div class="circles-grid">
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                     <div class="circles-row">
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
-                        <span><i class="fas fa-circle"></i></span>
+                        <span v-for="item in 9" :key="item">
+                            <i class="fas fa-circle"></i>
+                        </span>
                     </div>
                 </div>
+                
                 <div class="mini-title">
                     We Do More For Everyone
                 </div>
@@ -246,7 +223,7 @@ export default {
                 .card-image {
                     position: relative;
                     margin: 0 10px;
-                    
+
                     img {
                         border-radius: 10px;
                     }
