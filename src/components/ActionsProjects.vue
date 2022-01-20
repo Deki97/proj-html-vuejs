@@ -244,6 +244,9 @@ export default {
                 cursor: pointer;
                 
                 .card-image {
+                    position: relative;
+                    margin: 0 10px;
+                    
                     img {
                         border-radius: 10px;
                     }
