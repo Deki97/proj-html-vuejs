@@ -90,8 +90,8 @@
 
                         <div class="nav-menu">
                             <ul>
-                                <!-- Tramite le props leggo i valori dei menu da App.vue accedendo alla stringa -->
-                                <li v-for="(item, index) in stringMenu" :key="index">
+                                <!-- Tramite le props leggo i valori dei menu da App.vue accedendo all'oggetto -->
+                                <li v-for="(item, index) in objectMenu" :key="index">
                                     <a href="#">{{ item.menu }}</a>
                                 </li>
 
@@ -146,7 +146,7 @@ export default {
         SecondaryButton
     },
     props: {
-        stringMenu: String
+        objectMenu: Object
     }
 }
 </script>

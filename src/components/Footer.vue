@@ -23,7 +23,7 @@
                                 </div>
 
                                 <div class="paragraph">
-                                    <p v-for="(item, index) in stringParagraph" :key="index">
+                                    <p v-for="(item, index) in objectText" :key="index">
                                         {{ item.text }}
                                     </p>
                                 </div>
@@ -108,7 +108,7 @@ export default {
         FooterForm
     },
     props: {
-        stringParagraph: String
+        objectText: Object
     }
 }
 </script>

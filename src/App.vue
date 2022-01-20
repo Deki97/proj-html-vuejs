@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <!-- Passo tramite delle props l'array di stringhe menu al componente Header -->
-    <Header :stringMenu="header_menus" />
+    <Header :objectMenu="header_menus" />
 
     <Main />
 
     <!-- Passo tramite delle props l'array di stringhe menu al componente footer -->
-    <Footer :stringParagraph="footer_menus" />
+    <Footer :objectText="footer_menus" />
   </div>
 </template>
 
