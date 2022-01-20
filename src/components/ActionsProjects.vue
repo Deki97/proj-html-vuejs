@@ -95,7 +95,7 @@
 
                 <!-- First Row -->
                 <div class="row row-cols-3">
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-1.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-2.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-3.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -132,7 +132,7 @@
 
                 <!-- Second Row -->
                 <div class="row row-cols-3">
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-4.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -143,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-5.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -154,7 +154,7 @@
                         </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col g-0">
                         <div class="card-image">
                             <img src="../assets/img/project-6.jpg" alt="Card Image">
                             <div class="overlay"></div>
@@ -248,15 +248,16 @@ export default {
                         border-radius: 10px;
                     }
 
-                    // .overlay {
-                    //     position: absolute;
-                    //     top: 0;
-                    //     left: 0;
-                    //     width: 100%;
-                    //     height: 100%;
-                    //     background: rgba(0, 0, 0, .5);
-                    //     overflow: hidden;
-                    // }
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, .5);
+                        overflow: hidden;
+                        border-radius: 10px;
+                    }
                 }
 
                 .card-description {
